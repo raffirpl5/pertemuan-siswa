@@ -11,6 +11,8 @@ public class SiswaTester {
         Siswa Zaky = new Siswa ();
         Siswa Dewangga = new Siswa ();
         Siswa Rabbani = new Siswa ();
+        Siswa Gopi = new Siswa (20, "Dewi", 23);
+    
 
         Raffi.id = 24;
         Raffi.nama = "Raffi";
