@@ -1,9 +1,21 @@
-//Driver Class
 package siswa;
-import java.lang.reflect.Constructor;
+//Driver Class
+import java.util.Scanner;
 
 public class SiswaTester {
     public static void main(String[] args) {
+        //String--->int-->double
+        Scanner input = new Scanner (System.in);
+        System.out.println("Nama : ");
+        String nama = input.nextLine();
+        System.out.println("ID : ");
+        int id = input.nextInt();
+        System.out.println("IPK : ");
+        double ipk = input.nextDouble();
+        input.close();
+
+        Siswa raffi = new Siswa (id, nama, ipk);
+        raffi.print();
         //membuat Object
         //namaClass namaObject = new
         Siswa Raffi = new Siswa ();
